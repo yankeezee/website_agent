@@ -7,6 +7,7 @@ from pathlib import Path
 
 from google import genai
 
+from website_agent.env import load_environment
 from website_agent.schemas.business_profile import BusinessProfile
 from website_agent.prompts.business_analyst import (
     BUSINESS_ANALYST_SYSTEM_PROMPT,
@@ -28,6 +29,7 @@ class BusinessAnalystAgent:
     system_prompt: str = BUSINESS_ANALYST_SYSTEM_PROMPT
 
     def _get_client(self) -> genai.Client:
+        load_environment()
         if self.client is None:
             api_key = getenv("GEMINI_API_KEY") or getenv("GOOGLE_API_KEY")
             if not api_key:

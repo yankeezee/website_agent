@@ -5,11 +5,13 @@ description = "Agent pipeline for analyzing businesses and generating improved w
 requires-python = ">=3.11"
 dependencies = [
   "google-genai>=2.8.0",
+  "python-dotenv>=1.0.0",
   "pydantic>=2.0",
 ]
 
 [project.scripts]
 website-agent-business-analyst = "website_agent.cli:main"
+website-agent-competitor-research = "website_agent.cli_competitor:main"
 
 [build-system]
 requires = ["setuptools>=68", "wheel"]

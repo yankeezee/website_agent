@@ -1,2 +1,3 @@
 [console_scripts]
 website-agent-business-analyst = website_agent.cli:main
+website-agent-competitor-research = website_agent.cli_competitor:main

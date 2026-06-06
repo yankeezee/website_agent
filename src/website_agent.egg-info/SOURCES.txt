@@ -2,7 +2,9 @@ pyproject.toml
 src/website_agent/__init__.py
 src/website_agent/agent.py
 src/website_agent/cli.py
+src/website_agent/cli_competitor.py
 src/website_agent/context_loader.py
+src/website_agent/env.py
 src/website_agent/orchestrator.py
 src/website_agent.egg-info/PKG-INFO
 src/website_agent.egg-info/SOURCES.txt
@@ -20,6 +22,7 @@ src/website_agent/context/RKM.txt
 src/website_agent/context/__init__.py
 src/website_agent/prompts/__init__.py
 src/website_agent/prompts/business_analyst.py
+src/website_agent/prompts/competitor_research.py
 src/website_agent/schemas/__init__.py
 src/website_agent/schemas/business_profile.py
 src/website_agent/schemas/competitor_map.py

@@ -61,6 +61,7 @@ Improved site package
 ## Current Output
 
 - `output/business-profile.json`
+- `output/competitor-map.json`
 
 ## Python Structure
 

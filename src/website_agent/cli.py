@@ -2,6 +2,10 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from website_agent.env import load_environment
+
+load_environment()
+
 from website_agent.agents.business_analyst import BusinessAnalystAgent
 from website_agent.orchestrator import Orchestrator
 from website_agent.tools.context_loader import DEFAULT_CONTEXT_DIR
