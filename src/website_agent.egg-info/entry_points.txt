@@ -1,0 +1,2 @@
+[console_scripts]
+website-agent-business-analyst = website_agent.cli:main

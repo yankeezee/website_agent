@@ -1,0 +1,14 @@
+# Company context and generated artifacts
+output/
+src/website_agent/context/*
+!src/website_agent/context/__init__.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local env
+.env
+.venv/
+venv/
